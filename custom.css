@@ -1,0 +1,133 @@
+/*General */
+p{
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    border: 0.25vh solid black;
+}
+
+
+
+/*Header*/
+
+header{
+    margin: 0.5vh;
+}
+@font-face {
+    font-family: 'Sea of Japan JNL Oblique'; /* Updated font-family name */
+    src: url('../font/SeaofJapanObliqueJNL.eot'); /* Updated to use the correct file path */
+    src: local('Sea of Japan JNL Oblique'), local('SeaofJapanObliqueJNL'),
+        url('../font/SeaofJapanObliqueJNL.eot?#iefix') format('embedded-opentype'), /* Updated to correct file path */
+        url('../font/SeaofJapanObliqueJNL.woff2') format('woff2'), /* Updated to correct file path */
+        url('../font/SeaofJapanObliqueJNL.woff') format('woff'), /* Updated to correct file path */
+        url('../font/SeaofJapanObliqueJNL.ttf') format('truetype'); /* Updated to correct file path */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+    background-color: rgb(254, 250, 132);
+    font-family: 'Sea of Japan JNL Oblique';
+    font-weight: normal;
+    font-style: normal;
+    font-size:  10vh;
+    text-align: center;
+    padding: 1.5vh;
+    border: solid black 0.5vh;
+
+}
+
+#menu-title{
+    font-size: 7vh;
+    text-align: center;
+}
+
+
+
+nav a:link,
+nav a:visited {
+    color: rgb(0, 51, 85);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    border: 0.25vh solid rgb(0, 0, 0);
+}
+
+nav {
+    background-color:  rgb(254, 250, 132);;
+    border: 0.5vh solid rgb(0, 0, 0);
+    font-size: 4.2vmax;
+    margin: 2.5vh;
+    padding: 2vh;
+    font-size: 3vh;
+}
+
+.activePage {
+    background-color: rgb(255, 240, 154);
+    border: 0.25vh solid rgb(0, 0, 0);
+}
+
+/*footer*/
+footer{
+    border: 0.5vh solid black;
+    background-color: rgb(238, 188, 220);
+    background-color: rgb(254, 250, 132);
+    padding: 2.5vh;
+    margin: 2vh;
+}
+
+footer p{
+    background-color:white;
+    max-width: 100%;
+}
+
+/*Section */
+section {
+    background-color: rgb(254, 250, 132);
+    border: 0.5vh solid black;
+    padding: 2.5vh;
+    margin: 2vh;
+    
+}
+
+body {
+    background-color: rgb(128, 210, 237);
+    align-items: center;
+}
+
+/*Menu CSS*/
+.menu-item-name{
+    font-size: 2.75vh;
+    margin: 1vh, 0;
+    padding: 1vh 2vh;
+}
+table{
+    background-color:rgb(252, 252, 232);
+    border: 0.5vh solid black;
+}
+td{
+    padding: 1vh;
+}
+
+.menu-item-description{
+    font-size: 2.5vh;
+}
+th{
+    font-size: 3vh;
+}
+
+
+/*form*/
+#experience{
+    width: 100%;
+}

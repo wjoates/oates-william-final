@@ -1,0 +1,101 @@
+/*General*/
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: stretch;
+    height: auto;
+    align-items: center;
+    grid-row: 2;
+}
+body {
+    font-family: 'Lateef', cursive; /* Set Lateef as the default font */
+}
+
+h2{
+    font-size: 3vh;
+}
+p{
+    font-size: 2.5vh;
+}
+
+
+
+
+
+
+
+
+/* menu page */
+.grid-container {
+    display: grid;            
+    place-items: center;      
+    height: 100vh;            
+    width: 100vw;             
+
+    
+}
+.two-column{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2.5%;
+    justify-content: stretch;
+    grid-row: 3;
+    margin-bottom: 15vh;
+
+}
+
+
+
+#history, #history-image{
+    grid-row: 1;
+}
+#popular-dishes, #dishes-image{
+    grid-row: 2;
+}
+#history, #dishes-image{
+    grid-column: 1;
+}
+#popular-dishes, #history-image{
+    grid-column:2;
+}
+table {
+    border-collapse: collapse; /* Collapse the border */
+    width: auto;               /* Auto width based on content */
+    margin: auto;              /* Horizontally center the table if not using grid for centering */
+}
+
+td, th {
+
+    padding: 8px;              /* Padding inside cells */
+    text-align: left;          /* Text alignment in cells */
+}
+
+/* Contact format*/
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, auto); /* Two rows, size to content */
+}
+
+
+.contact-info {
+    grid-area: 1 / 1 / 2 / 2; /* Upper left corner */
+}
+
+.contact-symbol {
+    grid-area: 1 / 2 / 2 / 3; /* Upper right corner */
+    text-align: center; /* Centering the image inside the grid area */
+}
+
+.location-info {
+    grid-area: 2 / 2 / 3 / 3; /* Bottom right corner */
+}
+
+.stand-image {
+    grid-area: 2 / 1 / 3 / 2; /* Bottom left corner */
+    text-align: center; /* Centering the image inside the grid area */
+}
+.contact-images{
+    width: 60%;
+}
+
