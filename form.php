@@ -1,6 +1,5 @@
 <?php 
-include 'top.php'; 
-
+include 'top.php';
 
 $dataIsGood = false;
 $message = '';
@@ -11,7 +10,6 @@ $phone = '';
 $position = '';
 $availability = '';
 $experience = '';
-
 
 function getData($field) {
     if (!empty($_POST[$field])) {
