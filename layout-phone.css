@@ -1,0 +1,9 @@
+h1{
+    font-size: 6vmax;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr; 
+    text-align: center; 
+    font-size: 2.2vmax;
+}
