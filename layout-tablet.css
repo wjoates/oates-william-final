@@ -1,0 +1,52 @@
+
+/* Update nav for simpler mobile navigation */
+
+.grid-container, .two-column {
+    display: grid;
+    grid-template-columns: 1fr; 
+    width: 100%; 
+    gap: 0; 
+}
+
+
+#history, #popular-dishes, #history-image, #dishes-image {
+    grid-column: 1; 
+}
+
+
+#history, #popular-dishes {
+    grid-row: auto; 
+}
+
+#history-image {
+    grid-row: 2; 
+}
+
+#dishes-image {
+    grid-row: 4; 
+}
+
+/* Contact page grid adjustments */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+}
+
+.contact-info, .contact-symbol, .location-info, .stand-image {
+    grid-column: 1; 
+}
+
+
+.contact-symbol {
+    grid-row: 1;
+}
+.contact-info {
+    grid-row: 2;
+}
+.stand-image {
+    grid-row: 3;
+}
+.location-info {
+    grid-row: 4;
+}
