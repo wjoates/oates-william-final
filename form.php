@@ -12,6 +12,7 @@ $position = '';
 $availability = '';
 $experience = '';
 
+
 function getData($field) {
     if (!empty($_POST[$field])) {
         return htmlspecialchars(trim($_POST[$field]));
