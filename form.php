@@ -66,6 +66,7 @@ if($_SERVER["REQUEST_METHOD"] == 'POST') {
     }
 }
 ?>
+
 <main>
     <section id="job-description">
         <h2>Join Ahli Baba's Kabob Shop Team!</h2>
