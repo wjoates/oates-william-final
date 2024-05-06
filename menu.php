@@ -25,6 +25,7 @@ foreach ($records as $record) {
 }
 ?>
 
+
             </tbody>
         </table>
     </section>
